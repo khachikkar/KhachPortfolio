@@ -3,7 +3,6 @@
 .mainContainer{
     /* border: 1px solid red; */
     padding: 20px;
-    margin: 50px auto;
     /* width: 840px; */
     /* height: 600px; */
     /* background-color: black; */
@@ -12,6 +11,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+
+
 
 
 @media screen and (max-width:885px) {
