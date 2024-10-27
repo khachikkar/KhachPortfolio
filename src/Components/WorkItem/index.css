@@ -1,6 +1,6 @@
 .workItem{
 
-    width: 420px;
+    width: 400px;
     /* height: 300px; */
     border: 1px solid rgba(58, 58, 58, 0.465);
     background-color: rgba(240, 248, 255, 0.075);
@@ -13,14 +13,14 @@
 
 .work{
     padding: 10px;
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
     gap: 10px;
 
 img{
-    width: 398px;
+    width: 358px;
     border-radius: 10px;
 }
 

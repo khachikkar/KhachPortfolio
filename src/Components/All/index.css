@@ -1,15 +1,12 @@
 
 
 .mainContainer{
-    /* border: 1px solid red; */
+    /* border: 1px solid yellow; */
     padding: 20px;
-    /* width: 840px; */
-    /* height: 600px; */
-    /* background-color: black; */
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    margin: 50px 0;
 }
 
 
@@ -17,8 +14,8 @@
 
 @media screen and (max-width:885px) {
     .mainContainer{
-        grid-template-columns: 1fr;
-        padding: 0;
+        display: flex;
+        flex-direction: column;
     }
 }
   

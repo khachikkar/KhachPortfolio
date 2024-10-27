@@ -44,14 +44,14 @@ const All = () => {
     <div className="mainContainer">
 
 {/* Profile */}
-      <div style={{ width: "420px" }}>
+      <div style={{ width: "400px" }}>
         <Profile />
       </div>
 
 {/* Slider, Map, Resume */}
       <div
         style={{
-          width: "420px",
+          width: "400px",
           display: "flex",
           flexDirection: "column",
           gap: "20px",
@@ -66,7 +66,7 @@ const All = () => {
       </div>
 
 {/* Tech, Icons, Email */}
-      <div style={{ width: "420px", display: "flex", gap: "20px" }}>
+      <div style={{ width: "400px", display: "flex", gap: "20px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {icons.map((item, i) => (
             <Icon key={i} src={item} />
@@ -91,7 +91,7 @@ const All = () => {
       <div
         style={{
           display: "flex",
-          width: "420px",
+          width: "400px",
           flexDirection: "column",
           gap: "20px",
         }}
