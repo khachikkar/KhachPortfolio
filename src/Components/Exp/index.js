@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./index.css"
 const exdata = [
     {
         id: 1,
@@ -24,7 +24,8 @@ const exdata = [
 
 const Exp = () => {
   return (
-    <div className='prof exp'>
+    <div className='expCont exp'>
+        
       <span className='status'>1 years of</span>
       <h1>Experence</h1>
 

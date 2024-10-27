@@ -1,104 +1,11 @@
 .App{
-  /* padding: 60px 100px; */
-display: flex;
-background-color: black;
-
-
-}
-
-.mainCont{
-  /* width: 100%; */
-  /* height: 100vh; */
-
-  background-image: url("/src/core/img/bg.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  /* border: 1px solid yellow; */
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-  gap: 20px;
- 
-}
-
-@media screen and (max-width:600px) {
-
-
-
-  .mainCont{
-    grid-template-columns: 1fr ;
-  }  
-}
-
-
-.hh{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  /* border: 1px solid blue; */
-  height: 100%;
-
-}
-
-.fl{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  /* border: 1px solid blue; */
-}
-
-.mm{
-  /* border: 1px solid red; */
-  display: flex;
-  gap: 20px;
-  /* align-items: center; */
-  justify-content: center;
-}
-
-.iconPart{
-  /* border: 1px solid red; */
-  display: flex;
-  gap: 20px;
-
-}
-.myus{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* exp part */
-
-
-
-.comppart{
-  /* border: 1px solid blue; */
-  
-
-  h3{
-    color: rgba(255, 255, 255, 0.54);
-    font-size: 16px;
-    font-weight: 400;
-  }
-  p{
-    color: rgba(255, 255, 255, 0.54);
-    font-size: 14px;
-    font-weight: 300;
-    font-style: italic;
-  }
-}
-
-.exitem{
-  display: flex;
-  /* border: 1px solid green; */
-  padding: 20px 0;
-  justify-content: space-between;
-  align-items: center;
-
-h2{
-  font-size: 30px;
-}
-
+    background-image: url("../src//core/img/bg.jpeg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 100vh; */
 }

@@ -1,0 +1,58 @@
+
+
+.expCont{
+    
+    border: 1px solid rgb(58, 58, 58);
+    background-color: rgba(240, 248, 255, 0.075);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: white;
+
+    display: flex;
+    
+}
+.exp{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        margin: 0;
+    }
+
+    h2{
+        font-weight: 300;
+        width: 200px;
+    }
+}
+
+.comppart{
+    /* border: 1px solid blue; */
+    
+  
+    h3{
+      color: rgba(255, 255, 255, 0.54);
+      font-size: 16px;
+      font-weight: 400;
+    }
+    p{
+      color: rgba(255, 255, 255, 0.54);
+      font-size: 14px;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+  
+  .exitem{
+    display: flex;
+    /* border: 1px solid green; */
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+  
+  h2{
+    font-size: 30px;
+  }
+  
+  }

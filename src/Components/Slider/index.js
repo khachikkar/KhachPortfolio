@@ -1,13 +1,15 @@
 import React from 'react'
+import "./index.css"
 
-const Slider = () => {
+
+const Slider = ({text}) => {
   return (
     <div className='prof slider'>
 
-      <div className='portf'>
-        <p className='status'>2024</p>
-       <p> ksdhjgfkahsjdfg  aksjdhfgkahsjd aksjdhfgkahsjd </p>
-      </div>
+      
+      <p className='status'>2024</p>
+      <p> {text || "ksdhjgfkahsjdfg  aksjdhfgkahsjd aksjdhfgkahsjd"} </p>
+     
 
     </div>
   )

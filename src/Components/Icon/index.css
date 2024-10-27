@@ -1,0 +1,23 @@
+.iconCont{
+    border: 1px solid rgba(58, 58, 58, 0.465);
+    background-color: rgba(240, 248, 255, 0.075);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+}
+
+
+.icon{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+    }
+}
+
+
