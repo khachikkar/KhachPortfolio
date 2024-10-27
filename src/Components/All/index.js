@@ -10,7 +10,7 @@ import Tech from '../Tech'
 import "./index.css"
 // import "../../global.css"
 import Email from '../Email'
-import Design from '../Design'
+
 const  icons = [
   {
     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtYrycafqLqTTukXIGNr-YdtHkmZc43M-9Pw&s"
