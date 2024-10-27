@@ -1,5 +1,6 @@
 import React from 'react'
 // import "../../global.css"
+import me from "../../core/img/me.jpg"
 import "./index.css"
 
 
@@ -8,7 +9,7 @@ const Profile = () => {
     <div className='prof profile'>
        
        <div>
-       <img src='https://i.pinimg.com/474x/97/bb/06/97bb067e30ff6b89f4fbb7b9141025ca.jpg' alt='ll' />
+       <img src={me} alt='ll' />
        <h2>Khachik Karapetyan</h2>
        </div>
 

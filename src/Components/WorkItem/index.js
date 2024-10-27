@@ -12,7 +12,7 @@ const {techs} = data
       <h2>{data.title}</h2>
       <img src={data.imgSrc} alt='ll' />
 
-      <div style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"space-between", color:"gray"}}>
+      <div style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"space-between", color:"white"}}>
         <h2>View Site</h2>
        <a  without="true"  rel="noopener noreferrer" href={data.siteLink} target='_blank'>  <FiArrowUpRight size={30} />  </a> 
       </div>
