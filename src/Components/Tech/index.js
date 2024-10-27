@@ -60,7 +60,7 @@ const Tech = () => {
   return (
     <div className='techCont tech'>
       {
-        techs.map((tech) => tech.icon )
+        techs.map((tech, i) => <div  key={i}>{tech.icon}</div> )
       }
      
     </div>

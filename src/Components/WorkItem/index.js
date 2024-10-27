@@ -14,14 +14,14 @@ const {techs} = data
 
       <div style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"space-between", color:"gray"}}>
         <h2>View Site</h2>
-       <a  without  rel="noopener noreferrer" href={data.siteLink} target='_blank'>  <FiArrowUpRight size={30} />  </a> 
+       <a  without="true"  rel="noopener noreferrer" href={data.siteLink} target='_blank'>  <FiArrowUpRight size={30} />  </a> 
       </div>
 
       <span className='status'>Technologies Used</span>
       <div style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"flex-start", gap:"20px"}}>
 
 {
-    techs.map((tech, index) => <p key={index} className='tto'>{tech}</p> )
+    techs.map((tech, index) => <span key={index} className='ttto'>{tech}</span> )
 }
 
       </div>

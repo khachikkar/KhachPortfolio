@@ -31,14 +31,12 @@ img{
     color: rgba(255, 255, 255, 0.719);
 }
 
-.tto{
+.ttto{
     font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    /* color: rgba(255, 255, 255, 0.719); */
+    border-radius: 5px;
     padding: 4px;
-    background-color: rgba(254, 254, 254, 0.241);
-    backdrop-filter: blur(10px);
+    border: 1px solid white;
 }
