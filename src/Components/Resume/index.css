@@ -22,5 +22,11 @@
 
     h1{
         margin: 0;
+        cursor: pointer;
+        -webkit-text-stroke: 1px white; /* Stroke width and color */
+         transition: color 0.3s, -webkit-text-stroke 0.3s;
+    }
+    h1:hover{
+        color: rgba(255, 255, 255, 0.038);
     }
 }

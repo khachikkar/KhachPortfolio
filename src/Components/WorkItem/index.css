@@ -1,0 +1,44 @@
+.workItem{
+
+    width: 420px;
+    /* height: 300px; */
+    border: 1px solid rgba(58, 58, 58, 0.465);
+    background-color: rgba(240, 248, 255, 0.075);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: white;
+
+    display: flex;
+}
+
+.work{
+    padding: 10px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+
+img{
+    width: 398px;
+    border-radius: 10px;
+}
+
+}
+
+.status{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.tto{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* color: rgba(255, 255, 255, 0.719); */
+    padding: 4px;
+    background-color: rgba(254, 254, 254, 0.241);
+    backdrop-filter: blur(10px);
+}

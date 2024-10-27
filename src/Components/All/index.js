@@ -13,26 +13,42 @@ import "./index.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehanceSquare } from "react-icons/fa";
+import WorkItem from "../WorkItem";
+
+import { Workitems } from "../../core/WorkItms";
+
 const icons = [
   {
-    icon: <FaGithub size={80} />,
+    src: <FaGithub size={80} />,
+    href: "https://github.com/khachikkar"
   },
   {
-    icon: <FaLinkedin size={80} />,
+    src: <FaLinkedin size={80} />,
+    href: "https://www.linkedin.com/in/khachik-karapetyan/"
+
   },
   {
-    icon: <FaBehanceSquare size={80} />,
+    src: <FaBehanceSquare size={80} />,
+    href: "https://www.behance.net/khachikkarapet31"
+
   },
 ];
+
+
+
+
 
 
 const All = () => {
   return (
     <div className="mainContainer">
+
+{/* Profile */}
       <div style={{ width: "420px" }}>
         <Profile />
       </div>
 
+{/* Slider, Map, Resume */}
       <div
         style={{
           width: "420px",
@@ -49,10 +65,11 @@ const All = () => {
         </div>
       </div>
 
+{/* Tech, Icons, Email */}
       <div style={{ width: "420px", display: "flex", gap: "20px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {icons.map((item, i) => (
-            <Icon key={i} src={item.icon} />
+            <Icon key={i} src={item} />
           ))}
         </div>
 
@@ -70,6 +87,7 @@ const All = () => {
         </div>
       </div>
 
+{/* Exp */}
       <div
         style={{
           display: "flex",
@@ -81,38 +99,12 @@ const All = () => {
         <Exp />
       </div>
 
-      {/* <div className='hh'>
-<Profile />
-</div>
 
-<div className='fl'>
-<Slider />
-<div className='mm'>
-<Map src={map}/>
-<Resume />
-</div>
-</div>
-
-<div className='iconPart'>
-
-<div className='iconsp'>
 {
-  icons.map((item, i)=> <Icon key={i} src={item} />)
+   Workitems.map((item)=> <WorkItem key={item.id} data={item}/>)
 }
-</div>
 
-<div className='myus'>
-<Icon src="https://i.pinimg.com/originals/dd/50/b6/dd50b6932dfd6ff35c020c63f7e1213f.gif"/>
 
-<Tech />
-
-</div>
-
-</div>
-
-<div className='exppart'>
-  <Exp />
-</div> */}
     </div>
   );
 };

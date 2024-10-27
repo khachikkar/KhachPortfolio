@@ -12,7 +12,7 @@ const Profile = () => {
        <h2>Khachik Karapetyan</h2>
        </div>
 
-        <p>jkhwegfov qwgef bcoqweg roqwgrcqgweiurfgqowergfoqwegr xqwehgr xoqwgero qwhgeroyhqwegrkhjxq ewr xowg</p>
+        <p>Proficient in modern web development technologies, including HTML, CSS, JavaScript, React Js, FireBase, with a strong focus on creating responsive and user-friendly interfaces.</p>
 
     </div>
   )
