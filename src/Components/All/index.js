@@ -59,10 +59,11 @@ const All = () => {
       >
         <Slider />
 
-        <div style={{ display: "flex", gap: "20px" }}>
+        <div style={{  display: "flex", gap: "20px" }}>
           <Map  />
           <Resume />
         </div>
+        {/* <Slider /> */}
       </div>
 
 {/* Tech, Icons, Email */}
