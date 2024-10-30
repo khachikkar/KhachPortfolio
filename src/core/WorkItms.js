@@ -17,4 +17,12 @@ export const Workitems = [
         siteLink: "https://numerishop.netlify.app/",
         techs: ["React Js", "Ant Design System", "Firebase Service"]
     },
+    {
+        id: 3,
+        status: "2024 Nov",
+        title: "Who Wants to be Millionare",
+        imgSrc: "https://m.media-amazon.com/images/I/71wZi-+gTRL.jpg",
+        siteLink: "https://milionaregame.netlify.app/login",
+        techs: ["React Js", "Ant Design System", "Firebase Service"]
+    },
 ]
