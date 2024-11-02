@@ -20,9 +20,9 @@ export const Workitems = [
     {
         id: 3,
         status: "2024 Nov",
-        title: "Who Wants to be Millionare",
+        title: "Who Wants to be Millionare Game",
         imgSrc: "https://m.media-amazon.com/images/I/71wZi-+gTRL.jpg",
         siteLink: "https://milionaregame.netlify.app/login",
-        techs: ["React Js", "Ant Design System", "Firebase Service"]
+        techs: ["React Js", "Ant Design System", "Firebase Service", "Redux"]
     },
 ]
