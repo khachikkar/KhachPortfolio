@@ -34,7 +34,7 @@ const {techs} = data
       </div>
 
       <span className='status'>Technologies Used</span>
-      <div style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"flex-start", gap:"20px"}}>
+      <div className="techsUsed" >
 
 {
     techs.map((tech, index) => <span key={index} className='ttto'>{tech}</span> )

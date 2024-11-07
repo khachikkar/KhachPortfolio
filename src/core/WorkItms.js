@@ -1,5 +1,9 @@
 import mtasks from "./img/mtasks.png"
 import numeri from "./img/numeri.png"
+import  gapp from "./img/g_app.png"
+
+
+
 export const Workitems = [
     {
         id: 1,
@@ -7,7 +11,7 @@ export const Workitems = [
         title: "Task Managemant App",
         imgSrc: mtasks,
         siteLink: "https://mtasks.netlify.app/",
-        techs: ["React Js", "Ant Design System", "Firebase Service"]
+        techs: ["React Js", "Ant DS", "Firebase Service"]
     },
     {
         id: 2,
@@ -15,7 +19,7 @@ export const Workitems = [
         title: "Numeri E-Commerce",
         imgSrc: numeri,
         siteLink: "https://numerishop.netlify.app/",
-        techs: ["React Js", "Ant Design System", "Firebase Service"]
+        techs: ["React Js", "Ant DS", "Firebase Service"]
     },
     {
         id: 3,
@@ -23,6 +27,14 @@ export const Workitems = [
         title: "Who Wants to be Millionare Game",
         imgSrc: "https://m.media-amazon.com/images/I/71wZi-+gTRL.jpg",
         siteLink: "https://milionaregame.netlify.app/login",
-        techs: ["React Js", "Ant Design System", "Firebase Service", "Redux"]
+        techs: ["React Js", "Ant DS", "Firebase Service", "Redux"]
+    },
+    {
+        id: 4,
+        status: "AI Project",
+        title: "KH Image Generator App - AI Integration",
+        imgSrc: gapp,
+        siteLink: "https://te2image.netlify.app/",
+        techs: ["React Js", "Ant DS", "Supabase Back", "EmailJS", "Huggingface API"]
     },
 ]
