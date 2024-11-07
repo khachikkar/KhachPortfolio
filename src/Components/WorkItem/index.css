@@ -44,12 +44,14 @@
     display: block;
     width: 100%;
     height: 200px;
+      border-radius: 10px;
     /* height: 100%; */
     /* height: auto; */
   }
 
 
   .img-container .overlay {
+      border-radius: 10px;
     position: absolute;
     top: 0;
     left: 0;
