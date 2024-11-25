@@ -1,6 +1,12 @@
 import React from 'react'
 import "./index.css"
 const exdata = [
+     {
+        id: 0,
+        title: "Banner Designer for AI",
+        company: "Wirestock",
+        time: "2024-now"
+    },
     {
         id: 1,
         title: "Software Engeenering Student",
