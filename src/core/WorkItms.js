@@ -11,7 +11,7 @@ export const Workitems = [
         title: "Task Managemant App",
         imgSrc: mtasks,
         siteLink: "https://mtasks.netlify.app/",
-        techs: ["React Js", "Ant DS", "Firebase Service"]
+        techs: ["React Js", "Ant DS", "Firebase Service", "Redux"]
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const Workitems = [
         title: "Numeri E-Commerce",
         imgSrc: numeri,
         siteLink: "https://numerishop.netlify.app/",
-        techs: ["React Js", "Ant DS", "Firebase Service"]
+        techs: ["React Js", "Ant DS", "Firebase Service", "Redux"]
     },
     {
         id: 3,
