@@ -51,6 +51,6 @@ export const Workitems = [
         title: "Restart Service Website",
         imgSrc: restart,
         siteLink: "https://restartservice.netlify.app/",
-        techs: ["React Js", "Ant DS", "Supabase"]
+        techs: ["TypeScript", "Ant DS", "Supabase"]
     },
 ]
