@@ -2,7 +2,7 @@ import mtasks from "./img/mtasks.png"
 import numeri from "./img/numeri.png"
 import  gapp from "./img/g_app.png"
 import res from "./img/res.png"
-
+import restart from "./img/Screenshot 2024-12-15 at 18.22.22.png"
 
 export const Workitems = [
     {
@@ -44,5 +44,13 @@ export const Workitems = [
         imgSrc: res,
         siteLink: "https://khresbuilder.netlify.app/",
         techs: ["React Js", "Ant DS", "Firebase Back"]
+    },
+    {
+        id: 6,
+        status: "Informative",
+        title: "Restart Service Website",
+        imgSrc: restart,
+        siteLink: "https://restartservice.netlify.app/",
+        techs: ["React Js", "Ant DS", "Supabase"]
     },
 ]
