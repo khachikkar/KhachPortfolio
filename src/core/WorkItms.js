@@ -3,7 +3,7 @@ import numeri from "./img/numeri.png"
 import  gapp from "./img/g_app.png"
 import res from "./img/res.png"
 import restart from "./img/Screenshot 2024-12-15 at 18.22.22.png"
-
+import crypto1 from "./img/crypto1.png"
 export const Workitems = [
     {
         id: 1,
@@ -52,5 +52,13 @@ export const Workitems = [
         imgSrc: restart,
         siteLink: "https://restartservice.netlify.app/",
         techs: ["TypeScript", "Ant DS", "Supabase"]
+    },
+    {
+        id: 7,
+        status: "Next.js",
+        title: "CryptoNova Marketplace",
+        imgSrc: crypto1,
+        siteLink: "https://cryptonova-tau.vercel.app/",
+        techs: ["Next.js", "TypeScript", "Tailwand CSS", "Supabase", "Clerk", "MobX", "Trigger.dev"]
     },
 ]
